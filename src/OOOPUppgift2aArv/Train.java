@@ -8,8 +8,9 @@ public class Train extends Fordon{
         this.numberOfTrainCarriages = numberOfTrainCarriages;
     }
 
-    public void attachTrainCarriage(){
+    public void attachTrainCarriage(int numberOfTrainCarriagesToAttach){
         System.out.println("Train carraige attached to train: ");
+        numberOfTrainCarriages = numberOfTrainCarriages + numberOfTrainCarriagesToAttach;
 
     }
 
@@ -17,4 +18,6 @@ public class Train extends Fordon{
     public void printMe() {
         System.out.println("Det här tåget har " + numberOfTrainCarriages + " vagnar och en vikt på " + vikt + " och kör med en hastighet på " + hastighet + "km/h");
     }
+
+
 }

@@ -1,8 +1,8 @@
 package OOOPUppgift2aArv;
 
-import com.sun.source.tree.BreakTree;
 
-public class Fordon {
+
+abstract public class Fordon {
     protected int hastighet;
     protected int vikt;
 

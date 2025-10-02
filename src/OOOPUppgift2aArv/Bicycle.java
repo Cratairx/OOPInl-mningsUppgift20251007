@@ -1,8 +1,10 @@
 package OOOPUppgift2aArv;
 
-public class Bicycle extends Fordon{
+public class Bicycle extends Fordon implements Hjulburen {
     private int amountOfGears;
     private int gearRightNow;
+    private int antalHjul;
+
 
     public Bicycle(int hastighet, int vikt, int amountOfGears, int gearRightNow) {
         super(hastighet, vikt);
@@ -10,7 +12,7 @@ public class Bicycle extends Fordon{
         this.gearRightNow = gearRightNow;
     }
 
-    public int changeGear(int gearRightNow){
+    public int changeGear(int gearRightNow) {
         System.out.println("Gear Changed to");
         this.gearRightNow = gearRightNow;
         return gearRightNow;
@@ -18,6 +20,11 @@ public class Bicycle extends Fordon{
 
     @Override
     public void printMe() {
-        System.out.println("Den här cykeln har en hastighet på " +hastighet + " km/h med växeln " + gearRightNow + " med en vikt på " + vikt+ "kg");
+        System.out.println("Den här cykeln har en hastighet på " + hastighet + " km/h med växeln " + gearRightNow + " med en vikt på " + vikt + "kg");
+    }
+
+    @Override
+    public int getAntalhjul() {
+        return 0;
     }
 }

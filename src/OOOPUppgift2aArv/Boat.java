@@ -17,4 +17,6 @@ public class Boat extends Fordon{
     public void printMe() {
         System.out.println("Denna båt fordon har en dödvikt på " + deadWeight + " kg och kör med en hastighet på " + hastighet + " km/h med en vikt av " + vikt+ " kg");
     }
+
+
 }
