@@ -9,7 +9,7 @@ public class Main {
 
         Palms palmenOlof = new Palms("Igge","Palm");
         Palms palmenLaura = new Palms("Laura","Palm");
-        FleshEatingPlants meatLoaf = new FleshEatingPlants("Meatloaf","Fleshteatingplant");
+        FleshEatingPlant meatLoaf = new FleshEatingPlant("Meatloaf","Köttätande växt");
         Plants[] allPlants = {palmenOlof, palmenLaura, meatLoaf};
 
 
@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Välj vilken växt du vill vattna ");
             System.out.println("Palmen Laura [0]");
             System.out.println("Palmen Olof [1]");
-            System.out.println("Palmen Igge [2]");
+            System.out.println("Kaktusen Igge [2]");
             System.out.println("Palmen Igge [3]");
             System.out.println("Alla växter [4]");
             System.out.println("Avsluta programmet [5]");

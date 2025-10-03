@@ -24,6 +24,6 @@ public class Palms extends Plants{
     }
     @Override
     public void printMe(){
-        System.out.printf("Mitt namn är " + getName() + " och jag är en " + getPlantType());
+        System.out.println("Mitt namn är " + getName() + " och jag är en " + getPlantType());
     }
 }
