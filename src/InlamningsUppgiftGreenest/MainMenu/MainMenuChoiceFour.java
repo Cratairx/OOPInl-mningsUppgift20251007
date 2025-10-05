@@ -25,8 +25,10 @@ public class MainMenuChoiceFour {
         ArrayList<Double> heights = new ArrayList<>();
         for (Plants p : allPlants){
             System.out.println("Hur stor är " + p.getName()+ "?");
-            heights.add(scanner.nextDouble());
-            p.getWateringNeeds(heights.getFirst());
+            double height = scanner.nextDouble();
+            heights.add(height);
+            p.getWateringNeeds(height);
+
         }
         for (int i = 0; i < allPlants.length; i++) {
             allPlants[i].printMe();
