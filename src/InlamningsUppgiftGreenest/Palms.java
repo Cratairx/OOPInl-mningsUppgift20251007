@@ -1,17 +1,15 @@
 package InlamningsUppgiftGreenest;
 
-
-
-
 public class Palms extends Plants{
 
-    private double wateringNeeds;
+     private double wateringNeeds;
      private double tapWater = 0.5;
 
      public Palms(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType,liquidSort);
     }
 
+    @Override
     public double getWateringNeeds(double height){
 
         return  height * tapWater;
