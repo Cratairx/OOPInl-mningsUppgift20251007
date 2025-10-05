@@ -1,4 +1,4 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.Interface;
 
 public interface Printable {
      void printMe();

@@ -1,6 +1,9 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.Plants;
 
-public  abstract class Plants implements Printable{
+import InlamningsUppgiftGreenest.Enums.LiquidSort;
+import InlamningsUppgiftGreenest.Interface.Printable;
+
+public  abstract class Plants implements Printable {
     private String name; // inkappsling
     private String plantType;// inkappsling
 

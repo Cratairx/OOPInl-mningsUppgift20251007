@@ -1,4 +1,7 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.MainMenu;
+
+import InlamningsUppgiftGreenest.Plants.FleshEatingPlant;
+import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

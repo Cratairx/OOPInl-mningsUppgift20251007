@@ -1,10 +1,11 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.MainMenu;
 
-import java.sql.SQLOutput;
+import InlamningsUppgiftGreenest.Plants.Palms;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static InlamningsUppgiftGreenest.LiquidSort.KRANVATTEN;
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.KRANVATTEN;
 
 public class MainMenuFirstChoice {
    private double input;

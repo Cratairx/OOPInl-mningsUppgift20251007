@@ -1,10 +1,15 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.MainMenu;
+
+import InlamningsUppgiftGreenest.Plants.Cactuses;
+import InlamningsUppgiftGreenest.Plants.FleshEatingPlant;
+import InlamningsUppgiftGreenest.Plants.Palms;
+import InlamningsUppgiftGreenest.Plants.Plants;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static InlamningsUppgiftGreenest.LiquidSort.*;
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
 
 public class MainMenuChoiceFour {
 

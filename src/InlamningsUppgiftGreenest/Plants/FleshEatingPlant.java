@@ -1,5 +1,7 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.Plants;
 
+
+import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
 public class FleshEatingPlant extends Plants{
 
@@ -7,7 +9,7 @@ public class FleshEatingPlant extends Plants{
     private double proteinExtra = 0.2;
     protected double wateringNeeds;
 
-    public FleshEatingPlant(String name, String plantType,LiquidSort liquidSort) {
+    public FleshEatingPlant(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType,liquidSort);
     }
 

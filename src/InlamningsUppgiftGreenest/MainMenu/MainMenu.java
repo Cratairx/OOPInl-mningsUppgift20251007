@@ -1,4 +1,4 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.MainMenu;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

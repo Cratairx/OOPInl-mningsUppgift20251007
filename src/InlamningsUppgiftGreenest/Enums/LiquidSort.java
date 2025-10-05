@@ -1,4 +1,4 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.Enums;
 
 public enum LiquidSort {
 

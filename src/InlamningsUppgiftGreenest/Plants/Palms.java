@@ -1,4 +1,6 @@
-package InlamningsUppgiftGreenest;
+package InlamningsUppgiftGreenest.Plants;
+
+import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
 public class Palms extends Plants{
 
