@@ -1,9 +1,6 @@
 package InlamningsUppgiftGreenest.MainMenu;
 
-import InlamningsUppgiftGreenest.Plants.Cactuses;
-import InlamningsUppgiftGreenest.Plants.FleshEatingPlant;
-import InlamningsUppgiftGreenest.Plants.Palms;
-import InlamningsUppgiftGreenest.Plants.Plants;
+import InlamningsUppgiftGreenest.Plants.*;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -15,11 +12,8 @@ public class MainMenuChoiceFour {
 
 
     public void MenuChoiceFour(){
-        Palms palmenOlof = new Palms("Olof","Palm", KRANVATTEN); // här sätter jag mitt enum värde "Kranvatten"
-        Palms palmenLaura = new Palms("Laura","Palm", KRANVATTEN);
-        FleshEatingPlant meatLoaf = new FleshEatingPlant("Meatloaf","Köttätande växt",PROTEINDRYCK);
-        Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
-        Plants[] allPlants = {palmenOlof, palmenLaura, meatLoaf,kaktusenIgge};
+        PlantHotell hotellGuests = new PlantHotell();
+        Plants[] allPlants = {hotellGuests.getPalmenLaura(), hotellGuests.getPalmenOlof(), hotellGuests.getFleshEatingPlantMeatLoaf(),hotellGuests.getCactusesenIgge()};
 
        try{
         Scanner scanner = new Scanner(System.in);

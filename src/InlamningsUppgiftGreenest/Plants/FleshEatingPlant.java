@@ -3,7 +3,23 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.MINERALVATTEN;
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.PROTEINDRYCK;
+
 public class FleshEatingPlant extends Plants{
+  public static final  FleshEatingPlant meatLoaf = new FleshEatingPlant("Meatloaf","Köttätande växt",PROTEINDRYCK);
+
+
+
+
+    public FleshEatingPlant(){
+
+    }
+
+    public FleshEatingPlant getMeatLoaf() {
+        return meatLoaf;
+    }
+
 
     private double basLevelProteinShake = 0.1;
     private double proteinExtra = 0.2;

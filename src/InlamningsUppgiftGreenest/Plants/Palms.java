@@ -2,13 +2,23 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
+
 public class Palms extends Plants{
+
+
+
+
 
      private double wateringNeeds;
      private double tapWater = 0.5;
 
      public Palms(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType,liquidSort);
+    }
+    public Palms(){
+        super();
+
     }
 
     @Override

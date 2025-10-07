@@ -1,11 +1,9 @@
 package InlamningsUppgiftGreenest.MainMenu;
 
-import InlamningsUppgiftGreenest.Plants.Palms;
+import InlamningsUppgiftGreenest.Plants.PlantHotell;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.KRANVATTEN;
 
 public class MainMenuChoiceZero {
     private double input;
@@ -14,13 +12,13 @@ public class MainMenuChoiceZero {
 
         try {
 
-            Palms palmenLaura = new Palms("Laura", "Palm", KRANVATTEN);// Jag har lagt in mina Enums i konstruktorn för att det inte ska gå att skriva in fel som felet nedan
-           // Palms test = new Palms("Laura", "Palm","Coca Cola"); Här blir det error under Coca Cola för att det inte är en av mina Enums.
+
+            PlantHotell palmenLaura =  new PlantHotell();
             Scanner scanner = new Scanner(System.in);
-            System.out.printf("Hur stor är palmen? ");
+            System.out.printf("Hur stor är Laura? ");
             input = scanner.nextDouble();
-            palmenLaura.printMe();// polymorfism kallar på printMe i palm
-            System.out.println("Jag behöver ha " + palmenLaura.getWateringNeeds(input) + " Liter " + palmenLaura.getLiquidSort().liquidSorts + " om dagen");
+          palmenLaura.getPalmenLaura().printMe();// polymorfism kallar på printMe i palm
+            System.out.println("Jag behöver ha " + palmenLaura.getPalmenLaura().getWateringNeeds(input) + " Liter " + palmenLaura.getPalmenLaura().getLiquidSort().liquidSorts + " om dagen");
 
 
         }catch (InputMismatchException e){

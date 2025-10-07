@@ -15,6 +15,10 @@ public  abstract class Plants implements Printable {
         this.liquidSort = liquidSort;
     }
 
+    public Plants() {
+
+    }
+
     public String getName() {
         return name;
     }

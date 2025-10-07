@@ -2,12 +2,28 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.MINERALVATTEN;
+import static InlamningsUppgiftGreenest.Enums.LiquidSort.PROTEINDRYCK;
+
 public class Cactuses extends Plants{
+   public static final  Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
+
+
+    public Cactuses getKaktusenIgge() {
+        return kaktusenIgge;
+    }
+
+
 
     private double wateringInfo = 0.002;
     public Cactuses(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType, liquidSort);
     }
+    public Cactuses(){
+
+    }
+
+
 
     @Override
     public double getWateringNeeds(double height) {

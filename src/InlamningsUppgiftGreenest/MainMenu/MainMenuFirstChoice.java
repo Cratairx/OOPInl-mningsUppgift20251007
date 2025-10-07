@@ -1,6 +1,7 @@
 package InlamningsUppgiftGreenest.MainMenu;
 
 import InlamningsUppgiftGreenest.Plants.Palms;
+import InlamningsUppgiftGreenest.Plants.PlantHotell;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -13,12 +14,13 @@ public class MainMenuFirstChoice {
     public void mainMenuFirstChoice(){
 
        try {
-           Palms palmenOlof = new Palms("Igge", "Palm", KRANVATTEN);
+
+           PlantHotell palmenOlof = new PlantHotell();
            Scanner scanner = new Scanner(System.in);
-           System.out.printf("Hur stor är palmen? ");
+           System.out.printf("Hur stor är Olof? ");
            input = scanner.nextDouble();
-           palmenOlof.printMe();// polymorfism
-           System.out.println("Jag behöver ha " + palmenOlof.getWateringNeeds(input) + " Liter "+palmenOlof.getLiquidSort().liquidSorts + " om dagen");
+           palmenOlof.getPalmenOlof().printMe();// polymorfism
+           System.out.println("Jag behöver ha " + palmenOlof.getPalmenOlof().getWateringNeeds(input) + " Liter "+palmenOlof.getPalmenOlof().getLiquidSort().liquidSorts + " om dagen");
 
        }catch (InputMismatchException e){
            System.out.println("Du måste skriva en siffra i meter.");
