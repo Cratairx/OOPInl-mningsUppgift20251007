@@ -13,6 +13,7 @@ public class MainMenuChoiceZero {
     public void mainMenuChoiceZero(){
 
         try {
+
             Palms palmenLaura = new Palms("Laura", "Palm", KRANVATTEN);// Jag har lagt in mina Enums i konstruktorn för att det inte ska gå att skriva in fel som felet nedan
            // Palms test = new Palms("Laura", "Palm","Coca Cola"); Här blir det error under Coca Cola för att det inte är en av mina Enums.
             Scanner scanner = new Scanner(System.in);

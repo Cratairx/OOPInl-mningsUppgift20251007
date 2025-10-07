@@ -23,6 +23,7 @@ public  abstract class Plants implements Printable {
         return plantType;
     }
     // här är min orginal printMe som kan överskrivas (@Override) i klasser som ärver från denna tex Palms.
+    @Override
     public void printMe(){
         System.out.println("Mitt namn är " + this.name + " och jag är en " + this.plantType);
     }

@@ -15,7 +15,7 @@ public class MainMenuChoiceThree {
         System.out.println("Hur stor är " + meatLoaf.getName()+"?");
         input = scanner.nextDouble();
         meatLoaf.printMe(); // polymorfism
-        System.out.println("Jag behöver ha " + meatLoaf.getWateringNeeds(input) + "Liter " + meatLoaf.getLiquidSort().liquidSorts);
+        System.out.println("Jag behöver ha " + meatLoaf.getWateringNeeds(input) + " Liter " + meatLoaf.getLiquidSort().liquidSorts);
 
 
        }catch (InputMismatchException e){

@@ -13,6 +13,7 @@ import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
 
 public class MainMenuChoiceFour {
 
+
     public void MenuChoiceFour(){
         Palms palmenOlof = new Palms("Olof","Palm", KRANVATTEN); // här sätter jag mitt enum värde "Kranvatten"
         Palms palmenLaura = new Palms("Laura","Palm", KRANVATTEN);
