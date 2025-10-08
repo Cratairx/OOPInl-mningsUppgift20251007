@@ -1,9 +1,9 @@
 package InlamningsUppgiftGreenest.Plants;
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
-public class Cactuses extends Plants{
+public class Cactuses extends Plants{// Cactuses äver Plants
 
-    private  double wateringInfo = 0.002;// inkapsling
+    private  double wateringInfo = 0.02;// inkapsling
 
     public Cactuses(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType, liquidSort);

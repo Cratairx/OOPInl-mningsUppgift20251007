@@ -3,7 +3,7 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
-public class FleshEatingPlant extends Plants{
+public class FleshEatingPlant extends Plants{ // FleshEatingPlant ärver Plants
 
     private double basLevelProteinShake = 0.1;// inkapsling
     private double proteinExtra = 0.2;// inkapsling

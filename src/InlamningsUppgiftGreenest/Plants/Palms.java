@@ -4,7 +4,7 @@ import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
 
 
-public class Palms extends Plants{
+public class Palms extends Plants{ // Palms ärver Plants
 
      private double tapWater = 0.5;// inkapsling
 
