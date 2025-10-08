@@ -24,6 +24,7 @@ public class MainMenuChoiceFour {
         for (int i = 0; i < allPlants.length; i++) {
             allPlants[i].printMe();
             System.out.printf( "Jag behöver "+ allPlants[i].getWateringNeeds(heights.get(i))+ " Liter "+ allPlants[i].getLiquidSort().liquidSorts+". \n");
+
         }
        }catch (InputMismatchException e){
            System.out.println("Du måste skriva en siffra i meter.");
