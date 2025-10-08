@@ -15,10 +15,6 @@ public  abstract class Plants implements Printable {
         this.liquidSort = liquidSort;
     }
 
-    public Plants() {
-
-    }
-
     public String getName() {
         return name;
     }
@@ -35,7 +31,6 @@ public  abstract class Plants implements Printable {
     public LiquidSort getLiquidSort(){
        return liquidSort;
     }
-
 
  // här skapade jag en egen polymorfism för att tvinga andra klasser att göra sina egna getWateringNeeds
     public abstract double getWateringNeeds(double height);

@@ -2,23 +2,14 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
+
 
 public class Palms extends Plants{
 
-
-
-
-
-
-     private double tapWater = 0.5;
+     private double tapWater = 0.5;// inkapsling
 
      public Palms(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType,liquidSort);
-    }
-    public Palms(){
-        super();
-
     }
 
     @Override
@@ -26,8 +17,6 @@ public class Palms extends Plants{
 
         return  height * tapWater;
     }
-
-
 
     @Override
     public void printMe(){

@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class MainMenu {
 
-
-
     public void mainMenu(){
         while (true){
             System.out.println("Välj vilken växt du vill vattna ");

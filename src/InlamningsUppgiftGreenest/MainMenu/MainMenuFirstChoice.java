@@ -1,12 +1,7 @@
 package InlamningsUppgiftGreenest.MainMenu;
-
-import InlamningsUppgiftGreenest.Plants.Palms;
 import InlamningsUppgiftGreenest.Plants.PlantHotell;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.KRANVATTEN;
 
 public class MainMenuFirstChoice {
    private double input;
@@ -14,7 +9,6 @@ public class MainMenuFirstChoice {
     public void mainMenuFirstChoice(){
 
        try {
-
            PlantHotell palmenOlof = new PlantHotell();
            Scanner scanner = new Scanner(System.in);
            System.out.printf("Hur stor är Olof? ");

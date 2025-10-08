@@ -4,7 +4,6 @@ import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
 
 public class PlantHotell {
 
-
     Palms palmenOlof = new Palms("Olof", "Palm", KRANVATTEN);
     Palms palmenLaura = new Palms("Laura","Palm",KRANVATTEN);
     FleshEatingPlant fleshEatingPlantMeatLoaf = new FleshEatingPlant("Meatloaf", "Köttätandeväxt", PROTEINDRYCK);

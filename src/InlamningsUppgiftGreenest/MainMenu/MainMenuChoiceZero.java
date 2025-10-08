@@ -6,7 +6,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MainMenuChoiceZero {
-    private double input;
+    private double input;// inkapsling
 
     public void mainMenuChoiceZero(){
 

@@ -16,7 +16,7 @@ public class MainMenuChoiceTwo {
         System.out.println("Hur stor är kaktusen?");
         input = scanner.nextDouble();
         kaktusenIgge.getKaktusenIgge().printMe(); // polymorfism
-        System.out.println("Jag behöver ha " + kaktusenIgge.getKaktusenIgge().getWateringNeeds(input) + "Liter " + kaktusenIgge.getKaktusenIgge().getLiquidSort().liquidSorts);
+        System.out.println("Jag behöver ha " + kaktusenIgge.getKaktusenIgge().getWateringNeeds(input) + " Liter " + kaktusenIgge.getKaktusenIgge().getLiquidSort().liquidSorts);
        }catch (InputMismatchException e){
            System.out.println("Du måste skriva en siffra i meter.");
        }

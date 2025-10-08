@@ -16,11 +16,11 @@ public class MainMenuChoiceFour {
        try{
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> heights = new ArrayList<>();
-        for (Plants p : allPlants){
-            System.out.println("Hur stor är " + p.getName()+ "?");
+        for (Plants plant : allPlants){
+            System.out.println("Hur stor är " + plant.getName()+ "?");
             double height = scanner.nextDouble();
             heights.add(height);
-            p.getWateringNeeds(height);
+            plant.getWateringNeeds(height);
 
         }
         for (int i = 0; i < allPlants.length; i++) {

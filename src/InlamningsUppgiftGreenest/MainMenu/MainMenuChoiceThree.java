@@ -12,7 +12,7 @@ public class MainMenuChoiceThree {
 
     public void menuChoiceThree(){
        try{
-           PlantHotell meatLoaf = new PlantHotell();
+        PlantHotell meatLoaf = new PlantHotell();
         Scanner scanner = new Scanner(System.in);
         double input;
         System.out.println("Hur stor är Meatloaf?");

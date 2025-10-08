@@ -3,16 +3,10 @@ package InlamningsUppgiftGreenest.Plants;
 
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.MINERALVATTEN;
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.PROTEINDRYCK;
-
 public class FleshEatingPlant extends Plants{
 
-
-
-
-    private double basLevelProteinShake = 0.1;
-    private double proteinExtra = 0.2;
+    private double basLevelProteinShake = 0.1;// inkapsling
+    private double proteinExtra = 0.2;// inkapsling
     protected double wateringNeeds;
 
     public FleshEatingPlant(String name, String plantType, LiquidSort liquidSort) {
