@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MainMenuChoiceTwo {
-   private double input;
+   private double input;// inkapsling
 
     public void menuChoiceTwo(){
        try{

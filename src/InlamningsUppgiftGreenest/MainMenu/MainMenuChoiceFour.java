@@ -30,9 +30,6 @@ public class MainMenuChoiceFour {
        }catch (InputMismatchException e){
            System.out.println("Du måste skriva en siffra i meter.");
        }
-
-
-
        }
 
     }
