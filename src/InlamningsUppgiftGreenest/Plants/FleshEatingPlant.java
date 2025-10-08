@@ -7,7 +7,7 @@ public class FleshEatingPlant extends Plants{
 
     private double basLevelProteinShake = 0.1;// inkapsling
     private double proteinExtra = 0.2;// inkapsling
-    protected double wateringNeeds;
+    protected double wateringNeeds;// inkapsling
 
     public FleshEatingPlant(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType,liquidSort);

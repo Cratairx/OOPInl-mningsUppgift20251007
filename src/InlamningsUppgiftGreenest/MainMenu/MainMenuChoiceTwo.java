@@ -1,7 +1,5 @@
 package InlamningsUppgiftGreenest.MainMenu;
-
 import InlamningsUppgiftGreenest.Plants.PlantHotell;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -10,8 +8,8 @@ public class MainMenuChoiceTwo {
 
     public void menuChoiceTwo(){
        try{
-           //Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus", LiquidSort.PROTEINDRYCK);
-           PlantHotell kaktusenIgge = new PlantHotell();
+
+        PlantHotell kaktusenIgge = new PlantHotell();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hur stor är kaktusen?");
         input = scanner.nextDouble();

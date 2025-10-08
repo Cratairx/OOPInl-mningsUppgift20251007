@@ -1,6 +1,8 @@
 package InlamningsUppgiftGreenest;
 
+import InlamningsUppgiftGreenest.Enums.LiquidSort;
 import InlamningsUppgiftGreenest.MainMenu.MainMenu;
+import InlamningsUppgiftGreenest.Plants.Palms;
 
 public class Main {
 

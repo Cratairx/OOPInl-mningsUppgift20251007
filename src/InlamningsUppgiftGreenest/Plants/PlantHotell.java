@@ -4,10 +4,10 @@ import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
 
 public class PlantHotell {
 
-    Palms palmenOlof = new Palms("Olof", "Palm", KRANVATTEN);
-    Palms palmenLaura = new Palms("Laura","Palm",KRANVATTEN);
-    FleshEatingPlant fleshEatingPlantMeatLoaf = new FleshEatingPlant("Meatloaf", "Köttätandeväxt", PROTEINDRYCK);
-    Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
+  protected Palms palmenOlof = new Palms("Olof", "Palm", KRANVATTEN);// inkaspling
+  protected Palms palmenLaura = new Palms("Laura","Palm",KRANVATTEN);// inkaspling
+  protected FleshEatingPlant fleshEatingPlantMeatLoaf = new FleshEatingPlant("Meatloaf", "Köttätandeväxt", PROTEINDRYCK);// inkapsling
+  protected Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);// inkapsling
 
     public Palms getPalmenOlof() {
         return palmenOlof;
