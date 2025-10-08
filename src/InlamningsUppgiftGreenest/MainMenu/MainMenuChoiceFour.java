@@ -1,7 +1,5 @@
 package InlamningsUppgiftGreenest.MainMenu;
-
 import InlamningsUppgiftGreenest.Plants.*;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
