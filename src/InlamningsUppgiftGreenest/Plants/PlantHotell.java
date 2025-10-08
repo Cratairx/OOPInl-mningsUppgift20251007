@@ -8,7 +8,7 @@ public class PlantHotell {
     Palms palmenOlof = new Palms("Olof", "Palm", KRANVATTEN);
     Palms palmenLaura = new Palms("Laura","Palm",KRANVATTEN);
     FleshEatingPlant fleshEatingPlantMeatLoaf = new FleshEatingPlant("Meatloaf", "Köttätandeväxt", PROTEINDRYCK);
-    Cactuses cactusesenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
+    Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
 
     public Palms getPalmenOlof() {
         return palmenOlof;
@@ -22,7 +22,7 @@ public class PlantHotell {
         return fleshEatingPlantMeatLoaf;
     }
 
-    public Cactuses getCactusesenIgge() {
-        return cactusesenIgge;
+    public Cactuses getKaktusenIgge() {
+        return kaktusenIgge;
     }
 }

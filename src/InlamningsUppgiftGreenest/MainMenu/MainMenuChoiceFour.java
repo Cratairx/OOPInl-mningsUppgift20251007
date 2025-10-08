@@ -6,14 +6,12 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.*;
-
 public class MainMenuChoiceFour {
 
 
     public void MenuChoiceFour(){
         PlantHotell hotellGuests = new PlantHotell();
-        Plants[] allPlants = {hotellGuests.getPalmenLaura(), hotellGuests.getPalmenOlof(), hotellGuests.getFleshEatingPlantMeatLoaf(),hotellGuests.getCactusesenIgge()};
+        Plants[] allPlants = {hotellGuests.getPalmenLaura(), hotellGuests.getPalmenOlof(), hotellGuests.getFleshEatingPlantMeatLoaf(),hotellGuests.getKaktusenIgge()};
 
        try{
         Scanner scanner = new Scanner(System.in);
@@ -32,7 +30,7 @@ public class MainMenuChoiceFour {
        }catch (InputMismatchException e){
            System.out.println("Du måste skriva en siffra i meter.");
        }
-       // testar github
+
 
 
        }

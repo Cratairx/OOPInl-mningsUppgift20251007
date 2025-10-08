@@ -11,8 +11,6 @@ public class MainMenuChoiceZero {
     public void mainMenuChoiceZero(){
 
         try {
-// git test
-
             PlantHotell palmenLaura =  new PlantHotell();
             Scanner scanner = new Scanner(System.in);
             System.out.printf("Hur stor är Laura? ");

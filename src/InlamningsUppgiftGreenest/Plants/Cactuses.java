@@ -3,7 +3,6 @@ package InlamningsUppgiftGreenest.Plants;
 import InlamningsUppgiftGreenest.Enums.LiquidSort;
 
 import static InlamningsUppgiftGreenest.Enums.LiquidSort.MINERALVATTEN;
-import static InlamningsUppgiftGreenest.Enums.LiquidSort.PROTEINDRYCK;
 
 public class Cactuses extends Plants{
    public static final  Cactuses kaktusenIgge = new Cactuses("Igge","Kaktus",MINERALVATTEN);
@@ -19,10 +18,6 @@ public class Cactuses extends Plants{
     public Cactuses(String name, String plantType, LiquidSort liquidSort) {
         super(name, plantType, liquidSort);
     }
-    public Cactuses(){
-
-    }
-
 
 
     @Override
