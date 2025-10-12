@@ -35,6 +35,8 @@ public  abstract class Plants implements Printable {
  // här skapade jag en egen polymorfism för att tvinga andra klasser att göra sina egna getWateringNeeds
     public abstract double getWateringNeeds(double height);
 
-
-
+    @Override
+    public String toString() {
+        return "Mitt namn är  " + name + " Jag behöver vatnas med " + LiquidSort.KRANVATTEN.unit + LiquidSort.KRANVATTEN;
+    }
 }

@@ -2,14 +2,17 @@ package InlamningsUppgiftGreenest.Enums;
 
 public enum LiquidSort {
 
-    MINERALVATTEN("Mineralvatten"),
-    PROTEINDRYCK ("Proteindryck"),
-    KRANVATTEN("Kranvatten");
+    MINERALVATTEN(" mineralvatten"," Liter"),
+    PROTEINDRYCK (" proteindryck"," Liter"),
+    KRANVATTEN(" kranvatten", " Liter");
+
 
     public final String liquidSorts;
-    LiquidSort(String liquidSort){
-       this.liquidSorts = liquidSort;
-    }
+    public final String unit;
 
+    LiquidSort(String liquidSort, String unit){
+       this.liquidSorts = liquidSort;
+       this.unit = unit;
+    }
 
 }
