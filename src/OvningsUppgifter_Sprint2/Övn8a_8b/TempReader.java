@@ -54,9 +54,10 @@ public class TempReader {
             if (tempList.get(i) < lowestCounter){
                 lowestCounter = tempList.get(i);
                 System.out.println(lowestCounter);
-                totalSum += tempList.get(i);
+
 
             }
+            totalSum += tempList.get(i);
 
         }
         double avgTemp =  totalSum / tempList.size();
