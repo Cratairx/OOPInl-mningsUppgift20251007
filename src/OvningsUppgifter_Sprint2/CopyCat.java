@@ -5,11 +5,7 @@ import java.util.Scanner;
 
 public class CopyCat {
 
-    public void copyCatPrinter(){
 
-
-
-    }
 
     public void runCopyCat(){
         Scanner scanner = new Scanner(System.in);
