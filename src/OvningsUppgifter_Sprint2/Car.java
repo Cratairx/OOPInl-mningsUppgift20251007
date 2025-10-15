@@ -6,10 +6,14 @@ public class Car {
     private double todaysMilage;
     private double literUsagePerMile;
 
-    public Car(double milePerYear, double todaysMilage, double literUsagePerMile) {
+   public Car(double milePerYear, double todaysMilage, double literUsagePerMile) {
         this.milePerYear = milePerYear;
         this.todaysMilage = todaysMilage;
         this.literUsagePerMile = literUsagePerMile;
+    }
+
+    public Car(){
+
     }
 
     public double getMilePerYear() {
@@ -29,9 +33,15 @@ public class Car {
     }
 
     public double getAvgMilagePerYear(){
-
+        // har räknat fel här
         return (getMilagePerYear() + getLiterUsagePerMile())/ 2;
 
     }
+    public void MångaMil(){
+
+
+    }
+
+
 
 }
